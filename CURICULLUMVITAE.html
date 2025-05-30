@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Curicullum Vitae</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #faebd7, #3e6ff4);
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  table {
+    border-collapse: collapse;
+    width: 700px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    overflow: hidden;
+    table-layout: fixed;
+  }
+  th, td {
+    padding: 18px 24px;
+    border-bottom: 1px solid #e3e8ee;
+    vertical-align: top;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+  tr:not(:first-child) td:first-child {
+    width: 48%;
+  }
+  tr:not(:first-child) td:last-child {
+    width: 52%;
+  }
+  tr:nth-child(1) td {
+    background-color: #3e6ff4;
+    color: #0b0b0b; 
+    font-weight: 600;
+    font-size: 1.4em;
+    text-align: center;
+  }
+  tr:nth-child(3) td:first-child,
+  tr:nth-child(5) td:first-child {
+    background-color: #3e6ff4;
+    color: #0e0e0d;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  /* ORGANISASI and KEAHLIAN cell styling with vanilla yellow gradient background and text color */
+  tr:nth-child(3) td:last-child,
+  tr:nth-child(5) td:last-child {
+    font-weight: 600;
+    color: #111110;
+    font-size: 1.4em;
+    background-color: #3e6ff4;
+  }
+  /* Add vertical border between columns for rows 3 to 6 on first column */
+  tr:nth-child(3) td:first-child,
+  tr:nth-child(4) td:first-child,
+  tr:nth-child(5) td:first-child,
+  tr:nth-child(6) td:first-child {
+    border-right: 2px solid #a8abb4;
+  }
+  tr:nth-child(2) td:first-child {
+    text-align: center;
+    padding: 16px 16px 16px 20px;
+    width: 210px;
+  }
+  tr:nth-child(2) td:first-child img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(65 105 225 / 0.4);
+  }
+  tr:nth-child(2) td:nth-child(2) {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #444;
+  }
+  tr:nth-child(2) td:nth-child(2) p {
+    margin: 8px 0;
+  }
+  tr:last-child td {
+    color: #000000;
+    
+  }
+  /* Remove border bottom on last row */
+  tr:last-child td {
+    border-bottom:#161617;
+  }
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <td colspan="2">BIODATA DIRI</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="della.jpg" alt="Foto" />
+    </td>
+    <td>
+      <p><strong>NAMA:</strong> Della Wahyuni Putri</p>
+      <p><strong>TEMPAT, TGL:</strong> Pekanbaru, 19 Juni 2004</p>
+      <p><strong>JENIS KELAMIN:</strong> Perempuan</p>
+      <p><strong>AGAMA:</strong> Islam</p>
+      <p><strong>STATUS:</strong> Belum Menikah</p>
+      <p><strong>KEWARGANEGARAAN:</strong> Indonesia</p>
+    </td>
+  </tr>
+  <tr>
+    <td>PENDIDIKAN</td>
+    <td>ORGANISASI</td>
+  </tr>
+  <tr>
+    <td><p><strong><li>SD 176 PEKANBARU </li></strong>(2011-2017)</p>
+        <P><strong><li>SMPN 20 PEKANBARU</li></strong>(2017-2020)</P>
+        <P><strong><li>SMK KANSAI PEKANBARU</li></strong>(2020-2023)</P>
+    </td>
+    <td><p><li>Anggota Osis SMP 20 PEKANBARU</li></p>
+        <p><li>Networking Event</li></p>
+    </td>
+  </tr>
+  <tr>
+    <td>PENGALAMAN KERJA</td>
+    <td>KEAHLIAN</td>
+  </tr>
+  <tr>
+    <td><p><strong><li>Magang di Dealer Yamaha </li></strong>(2022) <br>Sebagai marketing Counter dan service Counter</p>
+       </td>
+    <td><p><li><strong>Hard Skills</strong></li>Bahasa Pemograman (C++, C, Python, Java)</p>
+        <p><li><strong>Soft Skills</strong></li>Problem Soving, Manajemen Waktu, Komunikasi Efektif</p></td>
+  </tr>
+</table>
+</body>
+</html>
